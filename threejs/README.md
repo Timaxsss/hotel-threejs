@@ -1,10 +1,6 @@
-# 3D Beach Hotel Experience
+# 3D Beach Hotel Experience (in beta v0.01)
 
-A realistic 3D experience built with Three.js and Vue.js, allowing users to explore a beach hotel environment in first-person view.
-
-## 🚧 Development Status
-
-This project is currently under active development. Features and improvements are being added regularly.
+A 3D experience built with Three.js and Vue.js, allowing users to explore a beach hotel environment in first-person view.
 
 ## 🌟 Features
 
@@ -29,18 +25,6 @@ This project is currently under active development. Features and improvements ar
 - Vite
 - Post-processing effects
 
-## 🚀 Getting Started
-
-1. Clone the repository
-2. Install dependencies:
-```bash
-npm install
-```
-3. Start the development server:
-```bash
-npm run dev
-```
-
 ## 📦 Dependencies
 
 - three
@@ -53,11 +37,7 @@ The project is structured as follows:
 - `src/App.vue`: Main application component
 - `public/textures/`: Contains all 3D textures
 - `src/main.js`: Application entry point
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
+  
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
