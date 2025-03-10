@@ -31,13 +31,26 @@ A 3D experience built with Three.js and Vue.js, allowing users to explore a beac
 - vue
 - vite
 
-## 🔧 Development
+## 🔧 Project Structure
 
-The project is structured as follows:
-- `src/App.vue`: Main application component
-- `public/textures/`: Contains all 3D textures
-- `src/main.js`: Application entry point
-  
+```
+src/
+├── components/           # Vue components
+│   └── SceneContainer.vue
+├── scenes/              # Three.js scenes
+│   └── BeachScene.js
+├── utils/               # Utility classes
+│   └── controls.js
+├── config/              # Configuration files
+│   └── scene.js
+├── assets/             # Static assets
+│   ├── textures/       # 3D textures
+│   └── models/         # 3D models
+├── styles/             # Global styles
+├── App.vue             # Root component
+└── main.js             # Application entry point
+```
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
