@@ -1,52 +1,63 @@
-# Visualiseur d'Hôtels 3D
+# 3D Beach Hotel Experience
 
-Une application web interactive pour visualiser des modèles 3D d'hôtels en utilisant Three.js et Vue.js.
+A realistic 3D experience built with Three.js and Vue.js, allowing users to explore a beach hotel environment in first-person view.
 
-## Fonctionnalités
+## 🚧 Development Status
 
-- Visualisation de modèles 3D d'hôtels
-- Navigation interactive avec la souris
-- Interface utilisateur intuitive
-- Chargement dynamique des modèles
-- Adaptation automatique de la caméra
+This project is currently under active development. Features and improvements are being added regularly.
 
-## Installation
+## 🌟 Features
 
-1. Clonez le repository
-2. Installez les dépendances :
-```bash
-npm install
-```
+- First-person camera controls
+- Realistic beach environment
+- Animated palm trees
+- Dynamic lighting and shadows
+- Smooth transitions between indoor and outdoor areas
+- Responsive design
 
-3. Lancez le serveur de développement :
-```bash
-npm run dev
-```
+## 🎮 Controls
 
-## Ajout de modèles d'hôtels
+- Click to start and activate controls
+- WASD or Arrow keys to move
+- Mouse to look around
+- Approach the door to transition outside
 
-Pour ajouter un nouvel hôtel :
-
-1. Placez le fichier du modèle 3D (format .glb) dans le dossier `public/models/`
-2. Ajoutez les informations de l'hôtel dans le tableau `hotels` dans `src/App.vue` :
-```javascript
-{
-  id: 3,
-  name: 'Nom de l\'hôtel',
-  thumbnail: 'URL de l\'image miniature',
-  modelUrl: '/models/nom-du-modele.glb'
-}
-```
-
-## Contrôles
-
-- Clic gauche + déplacement : Rotation de la caméra
-- Clic droit + déplacement : Pan de la caméra
-- Molette : Zoom avant/arrière
-
-## Technologies utilisées
+## 🛠️ Technologies Used
 
 - Vue.js 3
 - Three.js
 - Vite
-- GLTFLoader 
+- Post-processing effects
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the development server:
+```bash
+npm run dev
+```
+
+## 📦 Dependencies
+
+- three
+- vue
+- vite
+
+## 🔧 Development
+
+The project is structured as follows:
+- `src/App.vue`: Main application component
+- `public/textures/`: Contains all 3D textures
+- `src/main.js`: Application entry point
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
